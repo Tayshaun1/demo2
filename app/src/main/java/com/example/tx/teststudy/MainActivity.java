@@ -22,14 +22,6 @@ public class MainActivity extends AppCompatActivity {
         Log.e("HAHAHA","HAHAHAHA111111");
     }
 
-    public void feature2(){
-        Log.e("HAHAHA","HAHAHAHA111111");
-    }
-
-    public void feature3(){
-        Log.e("HAHAHA","HAHAHAHA111111");
-    }
-
     public void submit(View view){
         String oldPin = ((EditText)findViewById(R.id.original_eshield_password)).getText().toString();
         String newPin = ((EditText)findViewById(R.id.new_eshield_password)).getText().toString();
