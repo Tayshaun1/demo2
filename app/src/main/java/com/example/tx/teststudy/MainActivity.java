@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void feature4() {
-        Log.e("heihei","heihei");
+        Log.e("heihei","heihei");///11111
     }
 
     public void submit(View view){
