@@ -34,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
         String oldPin = ((EditText) findViewById(R.id.original_eshield_password)).getText().toString();
         String newPin = ((EditText) findViewById(R.id.new_eshield_password)).getText().toString();
         String confirmPin = ((EditText) findViewById(R.id.repetitive_new_eshield_password)).getText().toString();
+    public void feature4() {
+        Log.e("heihei","heihei");
+    }
+
+    public void submit(View view){
+        String oldPin = ((EditText)findViewById(R.id.original_eshield_password)).getText().toString();
+        String newPin = ((EditText)findViewById(R.id.new_eshield_password)).getText().toString();
+        String confirmPin = ((EditText)findViewById(R.id.repetitive_new_eshield_password)).getText().toString();
         //正则表达式校验
         String pat = "^([a-zA-Z0-9]|[\\\\!`@#$%^&*&nbsp;~(\")_=\\-+\\]?>\\[<':}\\{|;'/. ,\t])+";
         Pattern pattern = Pattern.compile(pat);
