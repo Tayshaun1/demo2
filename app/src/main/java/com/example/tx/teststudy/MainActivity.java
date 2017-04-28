@@ -30,10 +30,6 @@ public class MainActivity extends AppCompatActivity {
         Log.e("HAHAHA", "HAHAHAHA111111");
     }
 
-    public void submit(View view) {
-        String oldPin = ((EditText) findViewById(R.id.original_eshield_password)).getText().toString();
-        String newPin = ((EditText) findViewById(R.id.new_eshield_password)).getText().toString();
-        String confirmPin = ((EditText) findViewById(R.id.repetitive_new_eshield_password)).getText().toString();
     public void feature4() {
         Log.e("heihei","heihei");
     }
