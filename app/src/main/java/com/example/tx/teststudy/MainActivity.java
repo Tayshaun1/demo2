@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void feature1(){
+        Log.e("HAHAHA","HAHAHAHA111111");
+    }
+
     public void submit(View view){
         String oldPin = ((EditText)findViewById(R.id.original_eshield_password)).getText().toString();
         String newPin = ((EditText)findViewById(R.id.new_eshield_password)).getText().toString();
